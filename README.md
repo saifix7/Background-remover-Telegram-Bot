@@ -17,3 +17,7 @@ Telegram bot that removes image backgrounds instantly and logs every image to a 
 ---
 
 ## ⚙️ How It Works
+
+### Step 2: Install Dependencies
+
+pip install -r requirements.txt
