@@ -67,3 +67,8 @@ LOG_CHANNEL = YOUR_CHANNEL_LOD_ID  # Your private channel ID
 python bg_bot.py
 🎨 BG Remover Bot chal raha hai...
 📢 Log Channel: -1001234567890
+pkg update && pkg upgrade -y
+pkg install python git -y
+git clone https://github.com/saifix7/Background-remover-Telegram-Bot.git
+pip install python-telegram-bot requests
+python bg_bot.py
