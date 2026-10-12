@@ -18,6 +18,45 @@ Telegram bot that removes image backgrounds instantly and logs every image to a 
 
 ## ⚙️ How It Works
 
-### Step 2: Install Dependencies
 
-pip install -r requirements.txt
+---
+
+## ✨ Features
+
+| # | Feature | Detail |
+|---|---|---|
+| 1 | Background Remove | AI-powered removal via nobg API |
+| 2 | Private Channel Log | Every image logged with user info |
+| 3 | User Info Capture | Name, ID, username saved |
+| 4 | Fast Processing | 5-10 seconds per image |
+| 5 | Free to Use | No API key needed |
+| 6 | Transparent PNG | High-quality output |
+| 7 | Error Handling | Graceful failures, no crash |
+| 8 | Logging | Console + file logs |
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | What It Does |
+|---|---|
+| Python 3.10+ | Main language |
+| python-telegram-bot | Telegram Bot API wrapper |
+| requests | HTTP calls to background-removal API |
+| nobg API | Background removal service (free) |
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+- Python 3.10+
+- Telegram Bot Token (from @BotFather)
+- Private Telegram Channel (for logging)
+
+### Step 1: Clone Repository
+
+```bash
+git clone https://github.com/saifix7/bg-remover-bot.git
+cd bg-remover-bot
