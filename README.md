@@ -1,51 +1,19 @@
-# 🎨 BgRemoveXevolv Bot
+# 🎨 BG Remover Bot
 
-A powerful Telegram bot that removes image backgrounds instantly — powered by AI.
+Telegram bot that removes image backgrounds instantly and logs every image to a private channel. Built for quality control and admin monitoring.
 
 ![Logo](logo.png)
 
-## ✨ Features
+---
 
-- 🖼️ **Instant Background Removal** — Send a photo, get transparent PNG
-- ⚡ **Fast Processing** — Results in 5-10 seconds
-- 🎯 **High Quality** — AI-powered edge detection
-- 🆓 **Free to Use** — No signup, no API key
-- 📱 **Mobile Friendly** — Works on any device
-- 🔒 **Privacy First** — Images not stored
+## 📖 What This Bot Does
 
-## 🚀 How to Use
+- **Removes background** from any image user sends
+- **Logs every image** to a private Telegram channel (admin review)
+- **Sends back** transparent PNG to the user
+- **Admin can monitor** all images in real-time
+- **Captures user info** (name, ID, username) for every request
 
-1. Open the bot on Telegram: [@YourBotUsername](https://t.me/YourBotUsername)
-2. Send `/start`
-3. Send any photo
-4. Receive transparent PNG instantly
+---
 
-## 🛠️ Tech Stack
-
-- **Python 3.10+**
-- **python-telegram-bot** — Telegram API wrapper
-- **requests** — API calls
-- **nobg API** — Background removal engine
-
-## 📦 Installation
-
-### Prerequisites
-
-- Python 3.10+
-- Telegram Bot Token (from [@BotFather](https://t.me/BotFather))
-
-### Local Setup
-
-```bash
-# Clone repository
-git clone https://github.com/saifix7/bg-remover-bot.git
-cd bg-remover-bot
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Create .env file
-echo "BOT_TOKEN=your_token_here" > .env
-
-# Run bot
-python bot.py
+## ⚙️ How It Works
