@@ -58,8 +58,7 @@ Telegram bot that removes image backgrounds instantly and logs every image to a 
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/saifix7/bg-remover-bot.git
-cd bg-remover-bot
+git clone https://github.com/saifix7/Background-remover-Telegram-Bot.git
 
 pip install -r requirements.txt
 
